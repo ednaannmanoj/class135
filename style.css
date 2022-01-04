@@ -1,0 +1,19 @@
+body{
+    background-image: url("b.jpg");
+    background-size: cover;
+}
+#input{
+    width:250px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: ridge;
+}
+.button{
+width: 150px;
+}
+.status{
+width:150px;
+}
+canvas{
+    margin-top: 175px;
+}

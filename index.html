@@ -1,0 +1,35 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif+Display:wght@200&family=Pacifico&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+  <h1 class="heading">AI OBJECT FINDER</h1>      
+<h3>The input name which you will give should match the names present in Coco model then only it will detect</h3>
+<label>Object name:</label>
+<input type="text" id="input" class="form-control">
+<br>
+<button type="button" class="btn btn-success button" onClick="start();">Start</button>
+<br>
+<br>
+<div><label class="status btn btn-danger ">Status: <span id="status"></span> </label>
+<br>
+<br>
+<label class="result btn btn-warning"></label></div>
+  </center>
+<script src="main.js"></script>
+</body>
+</html>
